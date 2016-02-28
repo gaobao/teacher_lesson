@@ -1,0 +1,6 @@
+.form-wrap { width: 500px; border: 1px solid #888999; border-radius: 6px; -webkit-border-radius: 6px; position: absolute; top: 25%; left: 50%; margin-left: -250px; }
+.form-wrap header h3 { text-align: center; }
+.form-wrap .form-horizontal { margin-top: 3em; }
+.form-wrap .submit-wrap { text-align: center; margin-top: 3em; padding: 0 12em; }
+.form-wrap .form-group .dropdown {  margin-left: 1em; }
+.form-wrap .form-group .role-select-wrap { display: inline-block; width: auto; margin-left: 1em; }
