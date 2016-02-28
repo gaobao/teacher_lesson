@@ -12,7 +12,7 @@ class Login extends CI_Controller {
         $this->load->model('userinfomdl');
     }
     public function index(){
-
+        $this->load->view('login.html');
     }
     /**登陆
      * @param $email
