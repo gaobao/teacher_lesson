@@ -8,6 +8,6 @@
 
 class test extends CI_Controller {
     public function index(){
-        $this->load->view('login.html');
+        $this->load->view('teacher_index.html');
     }
 }

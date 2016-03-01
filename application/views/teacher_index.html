@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+<head>
+	<meta http-equiv="content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	<title>教师首页</title>
+	<link rel="stylesheet" type="text/css" href="<?PHP echo base_url('/static/css/bootstrap.min.css');?>" />
+	<link rel="stylesheet" type="text/css" href="<?PHP echo base_url('/static/css/teacher_index.css');?>" />
+</head>
+<body>
+	<header class="nav nav-default">
+		<span class="nav-title">教师管理云端</span>
+		 <span role="presentation" class="dropdown">
+		    <a id="teacher-name" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		    <span class="caret"></span>
+		    </a>
+		    <ul class="dropdown-menu">
+		      <li><a href="">个人设置</a></li>
+		      <li><a href="">退出</a></li>
+		    </ul>
+		  </span>
+	</header>
+	<p class="course-wrap">
+		<button class="btn btn-primary" id="make-course">创建课程</button>
+	</p>
+	<section class="course-content">
+		<p id="no-course" class="no-course">点击创建课程创建第一个课程吧！</p>
+		<ul id="has-course" class="has-course">
+			<li>
+				<p><span>课程名称：</span><span id="course-name"></span></p>
+				<p><span id="course-tips" class="course-tips">阿萨德阿萨德阿萨德撒打算打撒旦</span></p>
+				<p><span>课程状态：</span><span id="course-status">已开始</span></p>
+				<p><span>开课时间：</span><span id="course-startTime"></span></p>
+				<p class="course-btn"><a href="">查看选课学生</a><a href="javascript:;">删除</a></p>
+			</li>
+			<li>
+				<p><span>课程名称：</span><span id="course-name"></span></p>
+				<p><span id="course-tips" class="course-tips">阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德撒打算打撒旦</span></p>
+				<p><span>课程状态：</span><span id="course-status">已结束</span></p>
+				<p><span>开课时间：</span><span id="course-startTime"></span></p>
+				<p class="course-btn"><a href="">查看选课学生</a><a href="javascript:;">删除</a></p>
+			</li>
+			<li>
+				<p><span>课程名称：</span><span id="course-name"></span></p>
+				<p><span id="course-tips" class="course-tips">萨德</span></p>
+				<p><span>课程状态：</span><span id="course-status">已结束</span></p>
+				<p><span>开课时间：</span><span id="course-startTime"></span></p>
+				<p class="course-btn"><a href="">查看选课学生</a><a href="javascript:;">删除</a></p>
+			</li>
+			<li>
+				<p><span>课程名称：</span><span id="course-name"></span></p>
+				<p><span id="course-tips" class="course-tips">萨德</span></p>
+				<p><span>课程状态：</span><span id="course-status">已结束</span></p>
+				<p><span>开课时间：</span><span id="course-startTime"></span></p>
+				<p class="course-btn"><a href="">查看选课学生</a><a href="javascript:;">删除</a></p>
+			</li>
+		</ul>
+	</section>	
+	<script type="text/javascript" src="<?PHP echo base_url('/static/js/jquery-2.2.1.min.js');?>"></script>
+	<script type="text/javascript" src="<?PHP echo base_url('/static/js/bootstrap.min.js');?>"></script>
+	<script type="text/javascript" src="<?PHP echo base_url('/static/js/teacher_index.js');?>"></script>
+</body>
+</html>
