@@ -34,7 +34,7 @@ class Table_mdl extends CI_Model {
             $return['mess']='insert error'.$this->table.' data '.print_r($data,true);
         }
         log_message($return['level'],$return['mess']);
-        return $return['status'];
+        return $return;
     }
 
     /**
