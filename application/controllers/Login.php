@@ -14,6 +14,18 @@ class Login extends CI_Controller {
     public function index(){
         $this->load->view('login.html');
     }
+    public function loginIn(){
+        if(isset($_POST['name'])&&$_POST['pwd']&&isset($_POST['role'])){
+            $email = $_POST['name'];
+            $passwd = $_POST['pwd'];
+            $type=$_POST['role'];
+            $return = $this->_login($email,$passwd,$type);
+        }else{
+            $return['status']=false;
+            $return['error_mess']='邮箱或密码为空';
+        }
+        echo json_encode($return);
+    }
     /**登陆
      * @param $email
      * @param $passwd
@@ -43,16 +55,16 @@ class Login extends CI_Controller {
      * 登录
      * @return array
      */
-    public function loginIn(){
-        $return=array();
-        if(isset($_POST['type'])){
-            $email=$_POST['email'];
-            $passwd=$_POST['passwd'];
-            $type=$_POST['type'];
-            $return=$this->_login($email,$passwd,$type);
-        }
-        return json_encode($return);
-    }
+//    public function loginIn(){
+//        $return=array();
+//        if(isset($_POST['type'])){
+//            $email=$_POST['email'];
+//            $passwd=$_POST['passwd'];
+//            $type=$_POST['type'];
+//            $return=$this->_login($email,$passwd,$type);
+//        }
+//        return json_encode($return);
+//    }
 
 
 }

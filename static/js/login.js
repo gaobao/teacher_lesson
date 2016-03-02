@@ -1,4 +1,4 @@
-var base_url='http://localhost/cloud_system/static/';
+var base_url='http://localhost/cloud_system/';
 $(function(){
 	$(".input-exec").on("change", function(){
 		var $_parent = $(this).parents(".form-group");
@@ -22,7 +22,7 @@ $(function(){
 		_data["name"] = _name;
 		_data["pwd"] = _pwd;
 		_data["role"] = _role;
-		$.post(base_url+"/fake/login.json", _data, function(data){
+		$.post(base_url+"/login/loginin", _data, function(data){
 			if(data["name-status"] == 0){
 				$_loginName.parents(".form-group").toggleClass("has-error");
 			}
