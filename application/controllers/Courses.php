@@ -44,6 +44,10 @@ class Courses extends CI_Controller {
         return $return;
     }
     protected function list_courses(){
+        $return=array();
+
+        $limit=10;
+        $offset=$this->uri->segment(3)?$this->uri->segment(3):0;
 
     }
     protected function delete_courses(){
