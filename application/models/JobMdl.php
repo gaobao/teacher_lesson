@@ -20,7 +20,7 @@ class JobMdl extends CI_Model {
     public function __construct(){
         parent::__construct();
         $this->load->model('table_mdl');
-        $this->table_mdl->setTable();
+        $this->table_mdl->setTable($this->_table);
     }
 
     /**
@@ -80,6 +80,10 @@ class JobMdl extends CI_Model {
             $this->_return['status']=false;
             $this->_return['error_mess']='查询出错';
         }
+    }
+    public function getStudentJob($lesson_id,$student_id){
+            $this->db->select();
+            $this->db->join();
     }
 
     /**
