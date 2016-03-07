@@ -10,4 +10,16 @@ class Job extends CI_Controller{
     public function __construct(){
         parent::__construct();
     }
+    public function index(){
+
+    }
+    public function getJob(){
+        
+    }
+    public function createJob(){
+
+    }
+    public function deleteJob(){
+
+    }
 }
