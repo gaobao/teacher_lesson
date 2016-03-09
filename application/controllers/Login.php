@@ -9,8 +9,10 @@
 class login extends CI_Controller {
     public function __construct(){
         parent::__construct();
+        
         $this->load->model('userinfomdl');
-        if($this->userinfomdl->isLogin()){
+        $isLogin=$this->userinfomdl->isLogin();
+        if($isLogin['status']){
                 redirect(base_url('courses'));//
         }
     }

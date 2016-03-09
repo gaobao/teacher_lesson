@@ -96,12 +96,14 @@ class UserInfoMDL extends CI_Model {
                         'email'=>$email,
                         'passwd'=>sha1($passwd)
                     );
+
                     switch($type){
                         case 'teacher':
                             $table='le_teacher';
                             $this->table_mdl->setTable($table);
-                            $user=$this->table_mdl->get(array('email'=>$email));
-                            if($user['status']&&$user['result']=0){
+                            $user=$this->table_mdl->getRecordNum(array('email'=>$email));
+
+                            if($user['status']&&$user['result']==0){
                                 $res=$this->table_mdl->add($data);
                                 if($res['status']){
                                     $return['status']=true;
@@ -118,8 +120,10 @@ class UserInfoMDL extends CI_Model {
                         case 'student':
                             $table='le_student';
                             $this->table_mdl->setTable($table);
-                            $user=$this->table_mdl->get(array('email'=>$email));
-                            if($user['status']&&$user['result']=0){
+                            log_message('debug',$table);
+                            $user=$this->table_mdl->getRecordNum(array('email'=>$email));
+                             log_message('debug',$user['status'].$user['result']);
+                            if($user['status']&&$user['result']==0){
                                 $res=$this->table_mdl->add($data);
                                 if($res['status']){
                                     $return['status']=true;

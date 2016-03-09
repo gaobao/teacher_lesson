@@ -10,6 +10,7 @@ class Table_mdl extends CI_Model {
     public function __construct(){
         parent::__construct();
         $this->load->database();
+        log_message('info','table '.$this->table);
     }
     /**
      * 表名称
@@ -24,7 +25,7 @@ class Table_mdl extends CI_Model {
      */
     public function add($data){
         $return=array();
-        $return['result']=$this->db->insert($data,$this->table);
+        $return['result']=$this->db->insert($this->table,$data);
         if($return['result']){
             $return['level']='info';
             $return['status']=true;
@@ -63,6 +64,8 @@ class Table_mdl extends CI_Model {
             $return['mess']='delete  error'.$this->table.' where is null';
             $return['status']=false;
         }
+        log_message($return['level'],$return['mess']);
+        return $return;
 
     }
 
@@ -134,6 +137,7 @@ class Table_mdl extends CI_Model {
         }else{
             $return['status']=false;
         }
+        log_message('info',$return['result'].$return['status']);
         return $return;
     }
 

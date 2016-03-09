@@ -11,6 +11,7 @@ $(function(){
 			_name = $.trim($_loginName.val()),
 			_pwd  = $.trim($_loginPwd.val()),
 			_role = $("#login-role").val();
+			_re_passwd=$("#login-re-pwd").val();
 		if(_name == ""){
 			$_loginName.parents(".form-group").toggleClass("has-error");
             return false;
@@ -19,16 +20,20 @@ $(function(){
 			$_loginPwd.parents(".form-group").toggleClass("has-error");
             return false;
 		}
-		_data["name"] = _name;
-		_data["pwd"] = _pwd;
-		_data["role"] = _role;
-		$.post(base_url+"/login/loginin", _data, function(data){
+		if(_re_passwd == ""){
+			$_loginPwd.parents(".form-group").toggleClass("has-error");
+            return false;
+		}
+		_data["email"] = _name;
+		_data["passwd"] = _pwd;
+		_data["type"] = _role;
+		_data["re_passwd"]=_re_passwd;
+		$.post(base_url+"/register/register_in", _data, function(data){
 			if(data["status"] == false){
 				alert(data['error_mess']);
-			}else if(data['status']==true){
-				location.href=base_url+'courses';
 			}
-			
+			//to url index html
+			// window.location.href = 
 		}, "json");
 	});
 });
