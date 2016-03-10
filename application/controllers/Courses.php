@@ -53,7 +53,7 @@ class Courses extends CI_Controller {
         echo json_encode($return);
     }
     protected function list_courses(){
-        $return=[];
+        $return=array();
         $type=$this->userinfo['type'];
         if($type=='teacher'){
 
