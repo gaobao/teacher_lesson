@@ -10,8 +10,12 @@ class Register extends CI_Controller{
 
     public function __construct(){
         parent::__construct();
+        $this->load->model('userinfomdl');
     }
     public function index(){
+        $this->load->view('register.html');
+    }
+    public function register_in(){
         $return=array();
         if(isset($_POST['type'])){
             $email=$_POST['email'];
@@ -20,7 +24,7 @@ class Register extends CI_Controller{
             $type=$_POST['type'];
             $return=$this->_register($email,$passwd,$re_passwd,$type);
         }
-        return $return;
+        echo  json_encode($return);
     }
     /**
      * 注册
@@ -31,11 +35,13 @@ class Register extends CI_Controller{
      * @return mixed
      */
     protected function _register($email,$passwd,$re_passwd,$type){
+        $reutrn=[];
         if(empty($email)||empty($passwd)||empty($type)||empty($re_passwd)){
             $return['status']=false;
             $return['error_mess']='邮箱或密码为空';
         }else{
-            return $this->userinfomdl->register($email,$passwd,$re_passwd,$type);
+            $return=$this->userinfomdl->register($email,$passwd,$re_passwd,$type);
         }
+        return $return;
     }
 }

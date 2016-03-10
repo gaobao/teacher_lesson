@@ -23,14 +23,12 @@ $(function(){
 		_data["pwd"] = _pwd;
 		_data["role"] = _role;
 		$.post(base_url+"/login/loginin", _data, function(data){
-			if(data["name-status"] == 0){
-				$_loginName.parents(".form-group").toggleClass("has-error");
+			if(data["status"] == false){
+				alert(data['error_mess']);
+			}else if(data['status']==true){
+				location.href=base_url+'courses';
 			}
-			if(data["pwd-status"] == 0){
-				$_loginPwd.parents(".form-group").toggleClass("has-error");
-			}
-			//to url index html
-			// window.location.href = 
+			
 		}, "json");
 	});
 });

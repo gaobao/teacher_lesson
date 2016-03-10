@@ -10,14 +10,14 @@
 <body>
 	<section class="form-wrap">
 		<header>
-			<h3>云端备课系统</h3>
+			<h3>云端备课系统--注册</h3>
 		</header>
 		<form id="login-form" action="" class="form-horizontal" novalidate="novalidate">
 
 		  <div class="form-group">
-		    <label for="login-name" class="col-sm-4 control-label">姓名：</label>
+		    <label for="login-name" class="col-sm-4 control-label">邮箱：</label>
 		    <div class="col-sm-6">
-		      <input maxlength="20" type="text" class="form-control input-exec" id="login-name" placeholder="请输入姓名">
+		      <input maxlength="20" type="text" class="form-control input-exec" id="login-name" placeholder="请输入邮箱">
 		    </div>
 		  </div>
 
@@ -27,26 +27,31 @@
 		      <input maxlength="20" type="password" class="form-control input-exec" id="login-pwd" placeholder="请输入密码">
 		    </div>
 		  </div>
-
+		<div class="form-group">
+		    <label for="login-re-pwd" class="col-sm-4 control-label">确认密码：</label>
+		    <div class="col-sm-6">
+		      <input maxlength="20" type="password" class="form-control input-exec" id="login-re-pwd" placeholder="请再次输入密码">
+		    </div>
+		  </div>
 		  <div class="form-group">
-		  	<label for="login-role" class="col-sm-4 control-label">登陆身份：</label>
+		  	<label for="login-role" class="col-sm-4 control-label">身份：</label>
 			<select id="login-role" class="form-control role-select-wrap">
 			  <option value="teacher">教师</option>
 			  <option selected="selected" value="student">学生</option>
 			</select>
-			<a href="<?php echo base_url('register');?>">点击注册</a>
+			<a href="<?php echo base_url('login');?>">已有账号，点击登录</a>
 		  </div>
 			
 
-			
+
 		  <div class="form-group submit-wrap">
-		      <button id="submit-btn" type="button" class="btn btn-block btn-primary">登陆</button>
+		      <button id="submit-btn" type="button" class="btn btn-block btn-primary">注册</button>
 		  </div>
 
 		</form>
 	</section>
 	<script type="text/javascript" src="<?PHP echo  base_url('/static/js/jquery-2.2.1.min.js');?>"></script>
 	<script type="text/javascript" src="<?PHP echo  base_url('/static/js/bootstrap.min.js');?>"></script>
-	<script type="text/javascript" src="<?PHP echo base_url('/static/js/login.js');?>"></script>
+	<script type="text/javascript" src="<?PHP echo base_url('/static/js/register.js');?>"></script>
 </body>
 </html>

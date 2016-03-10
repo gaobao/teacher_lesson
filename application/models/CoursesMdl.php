@@ -48,8 +48,6 @@ class CoursesMdl extends CI_Model {
             $return['status']=false;
         }
         return $return;
-
-
     }
     public function update($where,$data){
         $return=array();
@@ -60,7 +58,6 @@ class CoursesMdl extends CI_Model {
             $return['error_mess']='更新条件或数据错误';
         }
         return $return;
-
     }
     public function delete($where){
         return $this->table_mdl->delete($where);

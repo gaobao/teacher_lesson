@@ -49,4 +49,16 @@ class Job extends CI_Controller{
     public function deleteJob(){
 
     }
+    public function index(){
+
+    }
+    public function getJob(){
+        
+    }
+    public function createJob(){
+
+    }
+    public function deleteJob(){
+
+    }
 }
