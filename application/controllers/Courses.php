@@ -20,20 +20,23 @@ class Courses extends CI_Controller {
     public function __construct(){
         parent::__construct();
         $this->load->model(array('userinfomdl','coursesmdl'));
-        if(!$this->userinfomdl->isLogin()){
+        $isLogin=$this->userinfomdl->isLogin();
+        if(!$isLogin['status']){
          redirect(base_url('login'));
-            $this->userinfo=$this->userinfomdl->getUserInfo();
+
         }
+        $this->userinfo=$this->userinfomdl->getUserInfo();
     }
     public function index(){
         $this->load->view('teacher_index.html');
+//        var_dump($this->userinfo);
     }
 
     /**
      * 创建课程
      * @return array
      */
-    protected function create_courses(){
+    public function create_courses(){
         $return=array();
         if($this->userinfo['type']=='teacher'){
             if(isset($_POST['lesson_name'])&&isset($_POST['lesson_desc'])){
@@ -52,10 +55,12 @@ class Courses extends CI_Controller {
 
         echo json_encode($return);
     }
-    protected function list_courses(){
+    public function list_courses(){
         $return=array();
         $type=$this->userinfo['type'];
         if($type=='teacher'){
+            $teacher_id=isset($_POST['teacher_id'])?$_POST['teacher_id']:0;
+            $where=array();
 
         }elseif($type=='student'){
 
@@ -67,7 +72,7 @@ class Courses extends CI_Controller {
         $offset=$this->uri->segment(3)?$this->uri->segment(3):0;
 
     }
-    protected function delete_courses(){
+    public function delete_courses(){
 
     }
 

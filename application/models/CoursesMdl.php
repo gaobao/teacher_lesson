@@ -76,13 +76,24 @@ class CoursesMdl extends CI_Model {
         }
         return $returnStr;
     }
-    public function checkLessonCode(){
-        $return=
-        $str=$this->createLessonCode(6);
-        $where=array('lesson_code'=>$str);
+
+    public function checkLessonCode($num){
+
+        $where=array('lesson_code'=>$returnStr);
         $res=$this->table->getRecordNum($where);
         if($res['status']&&$res['result']>0){
-
+            $this->checkLessonCode($num);
         }
+        return $returnStr;
+    }
+
+    /**
+     * 获取学生课程列表
+     * @param $tudent_id
+     * @return array
+     */
+    public function getStudentCourses($tudent_id){
+        $return = array();
+        return $return;
     }
 }
