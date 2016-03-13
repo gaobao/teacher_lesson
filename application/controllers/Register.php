@@ -35,7 +35,7 @@ class Register extends CI_Controller{
      * @return mixed
      */
     protected function _register($email,$passwd,$re_passwd,$type){
-        $reutrn=[];
+        $reutrn=array();
         if(empty($email)||empty($passwd)||empty($type)||empty($re_passwd)){
             $return['status']=false;
             $return['error_mess']='邮箱或密码为空';

@@ -230,6 +230,6 @@ class UserInfoMDL extends CI_Model {
      * @return mixed
      */
     public function getUserInfo(){
-        return $this->session->userdate('userinfo');
+        return $this->session->userdata('userinfo');
     }
 }
