@@ -9,7 +9,7 @@
 </head>
 <body>
 <header class="nav nav-default">
-    <span class="nav-title">教师管理云端</span>
+    <span class="nav-title">云备课系统</span>
 		 <span role="presentation" class="dropdown">
 		    <a id="teacher-name" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                 <span class="caret"><?php echo $userinfo['name'];?></span>

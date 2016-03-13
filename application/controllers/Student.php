@@ -26,7 +26,7 @@ class Student extends CI_Controller {
      */
     public function index(){
         $this->load->view('header',$this->_data);
-        $this->load->view('teacher.html');
+        $this->load->view('student.html');
         $this->load->view('footer');
     }
 }
