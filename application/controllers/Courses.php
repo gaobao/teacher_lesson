@@ -26,9 +26,12 @@ class Courses extends CI_Controller {
 
         }
         $this->userinfo=$this->userinfomdl->getUserInfo();
+        $this->_data['userinfo']=$this->userinfo;
     }
     public function index(){
+        $this->load->view('header',$this->_data);
         $this->load->view('teacher_index.html');
+        $this->load->view('footer');
 //        var_dump($this->userinfo);
     }
 
