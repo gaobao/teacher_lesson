@@ -9,6 +9,7 @@
 class Teacher extends CI_Controller {
     private $_data=array();
     private $_userinfo=array();
+    private $_return=array();
     public function __construct(){
         parent::__construct();
         $this->load->model('userinfomdl');
@@ -29,7 +30,18 @@ class Teacher extends CI_Controller {
     }
     public function update_info(){
         $username=isset($_POST['username'])?$_POST['username']:'';
-        $
+        $teacher_code=isset($_POST['code'])?$_POST['code']:'';
+        $email=isset($_POST['email'])?$_POST['email']:'';
+        if(empty($username)&&empty($teacher_code)){
+            $this->_return['status']=false;
+            $this->_return['error_mess']='ID与名称不可为空';
+        }else{
+            $type='teacher';
+            $userinfo=array(
+                ''
+            );
+
+        }
     }
     public function change_passwd(){
 
