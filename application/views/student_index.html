@@ -1,0 +1,59 @@
+
+<?php
+		    if(isset($course)){
+		    ?>
+<div class="col-xs-12">
+    <?php
+		        foreach($course as $key=>$value){
+    ?>
+    <div class="col-xs-3">
+        <div class="thumbnail">
+
+            <img src="<?php echo base_url('static/images/'.rand(10,19).'.jpg')?>" alt="...">
+            <div class="caption">
+                <h3><?php echo $value['lesson_name'];?></h3>
+                <p><?php echo $value['lesson_desc'];?></p>
+                <p>课程编码:<span class="lesson-code"><?php echo $value['lesson_code'];?></span></p>
+                <p>课程状态:<span class="lesson-code"><?php echo $value['status'];?></span></p>
+                <a href="<?php echo base_url('courses/details?course_id='.$value['id']);?>" >查看课程</a></p>
+            </div>
+        </div>
+    </div>
+    <?php
+                }
+                ?>
+</div>
+<div class="col-xs-12">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="input-group input-group-lg">
+                <span class="input-group-addon" id="sizing-addon1">输入课程码</span>
+                <input type="text" id="lesson-code" class="form-control" placeholder="请输入六位课程编码" aria-describedby="sizing-addon1">
+                 <span class="input-group-btn">
+                <button class="btn btn-default" id="select-course" type="button">添加</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<?php
+            }else{
+            ?>
+<div class="col-xs-12">
+    <div class="jumbotron">
+        <div class="container">
+            <h3>您还没有课程，请先添加课程</h3>
+            <div class="input-group input-group-lg">
+                <span class="input-group-addon" id="sizing-addon1">输入课程码</span>
+                <input type="text" id="lesson-code" class="form-control" placeholder="请输入六位课程编码" aria-describedby="sizing-addon1">
+                 <span class="input-group-btn">
+                <button class="btn btn-default" id="select-course" type="button">添加</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<?php
+            }
+		?>
+<script type="application/javascript" src="<?php echo base_url('static/js/student_index.js');?>"></script>

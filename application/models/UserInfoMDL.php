@@ -179,6 +179,7 @@ class UserInfoMDL extends CI_Model {
      * @return mixed
      */
     public function updateInfo($userinfo,$type,$email){
+        $return=array();
         switch($type){
             case 'teacher':
                 $table='le_teacher';
@@ -204,6 +205,7 @@ class UserInfoMDL extends CI_Model {
                 break;
             return $return;
         }
+        return $return;
     }
 
     /**
@@ -213,6 +215,7 @@ class UserInfoMDL extends CI_Model {
      */
     public function updateSession($email,$type){
         $return=array();
+        $this->table_mdl->setTable('le_'.$type);
         $user=$this->table_mdl->get(array('email'=>$email));
         if($user['status']&&$user['result'][0]) {
             $user['result'][0]['type']=$type;

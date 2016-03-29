@@ -1,4 +1,4 @@
-var base_url='http://localhost/cloud_system/';
+
 $(function(){
 	$(".input-exec").on("change", function(){
 		var $_parent = $(this).parents(".form-group");
@@ -33,7 +33,8 @@ $(function(){
 				alert(data['error_mess']);
 			}
 			//to url index html
-			// window.location.href = 
+			// window.location.href =
+            location.href=base_url+'login';
 		}, "json");
 	});
 });

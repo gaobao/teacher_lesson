@@ -43,7 +43,9 @@ class CoursesMdl extends CI_Model {
     public function getCourses($where,$limit=1000,$offset=0){
         $return=array();
         if(!empty($where)&&is_array($where)&&is_numeric($limit)&&is_numeric($offset)){
-            $res=$this->table_mdl->get($where,$limit,$offset);
+            $return=$this->table_mdl->get($where,$limit,$offset);
+//            $return['status']=true;
+//            $return['result']=$res;
         }else{
             $return['status']=false;
         }
@@ -78,7 +80,7 @@ class CoursesMdl extends CI_Model {
     }
 
     public function checkLessonCode($num){
-
+        $returnStr=$this->checkLessonCode($num);
         $where=array('lesson_code'=>$returnStr);
         $res=$this->table->getRecordNum($where);
         if($res['status']&&$res['result']>0){
@@ -92,8 +94,38 @@ class CoursesMdl extends CI_Model {
      * @param $tudent_id
      * @return array
      */
-    public function getStudentCourses($tudent_id){
-        $return = array();
+    public function getStudentCourses($student_id){
+        $return=array();
+        $where=array('student_id'=>$student_id);
+        $this->db->select('le_lesson.id,le_lesson.lesson_code,le_lesson.lesson_name,le_lesson.lesson_desc,le_lesson_record.status');
+        $this->db->from('le_lesson');
+        $this->db->join('le_lesson_record','le_lesson.id=le_lesson_record.lesson_id','inner');
+        if(is_array($where)&&!empty($where)){
+            foreach($where as $key=>$value){
+                $this->db->where($key,$value);
+            }
+        }
+        $res=$this->db->get();
+        if($res){
+            $return['status']=true;
+            $return['result']=$res->result_array();
+        }else{
+            $return['status']=false;
+            $return['error_mess']='查询出错';
+        }
+        return $return;
+    }
+    public function createCourseRecord($data){
+        $return=array();
+        $this->load->model('table_mdl');
+        $this->table_mdl->setTable('le_lesson_record');
+        $res=$this->table_mdl->add($data);
+        if($res['status']){
+            $return['status']=true;
+        }else{
+            $return['status']=false;
+            $return['error_mess']='选择课程错误';
+        }
         return $return;
     }
 }

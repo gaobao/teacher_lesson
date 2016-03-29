@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-xs-4 box-border">
                     <div class="thumbnail">
-                        <img class="user-image" src="<?php echo base_url('static/images/images.jpg');?>" alt="...">
+                        <img class="user-image" id="user-image" src="<?php echo base_url('static/images/images.jpg');?>" alt="...">
                         <div class="caption text-center">
                             <h3>用户名</h3>
                             <p>工号</p>
@@ -17,15 +17,14 @@
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">基本信息</a></li>
                     <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">密码</a></li>
-                    <li role="presentation"><a href="#images" aria-controls="images" role="tab" data-toggle="tab">头像</a></li>
+
                 </ul>
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="home">
-                        <form>
                             <div class="form-group">
                                 <label for="email-input">邮箱</label>
-                                <input type="email" class="form-control" id="email-input" placeholder="邮箱">
+                                <input type="email" class="form-control" id="email-input" placeholder="邮箱" disabled>
                                 <input type="hidden" name="teacher_id" value="">
                             </div>
                             <div class="form-group">
@@ -34,13 +33,13 @@
                             </div>
                             <div class="form-group">
                                 <label for="code-input">工号</label>
-                                <input type="text" class="form-control" id="code-input" placeholder="学号">
+                                <input type="text" class="form-control" id="code-input" placeholder="工号">
                             </div>
-                            <button type="submit" class="btn btn-default" id="change-info">修改</button>
-                        </form>
+                            <button type="button" class="btn btn-default" id="change-info">修改</button>
+
                     </div>
                     <div role="tabpanel" class="tab-pane" id="profile">
-                        <form>
+
                             <div class="form-group">
                                 <label for="old_passwd">旧密码</label>
                                 <input type="password" class="form-control" id="old_passwd">
@@ -49,19 +48,15 @@
                                 <label for="new_passwd">新密码</label>
                                 <input type="password" class="form-control" id="new_passwd">
                             </div>
-                            <button type="submit" class="btn btn-default" id="change-passwd">修改</button>
-                        </form>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="images">
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleInputFile">上传头像</label>
-                                <input type="file" id="exampleInputFile">
-                            </div>
-                        </form>
+                            <button type="button" class="btn btn-default" id="change-passwd">修改</button>
                     </div>
                 </div>
+
             </div>
+            <label class="control-label">选择头像</label>
+            <input id="upload-image" type="file" name="file"  accept="image/*">
         </div>
     </div>
 </div>
+
+<script type="application/javascript" src="<?php echo base_url('static/js/teacher_info.js');?>"></script>

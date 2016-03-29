@@ -111,6 +111,8 @@ class Table_mdl extends CI_Model {
         $this->db->limit($offset,$limit);
         $this->db->order_by($order_by,$sort);
         $query=$this->db->get($this->table);
+//        echo $this->db->last_query();
+
         if($query){
             $return['result']=$query->result_array();
             $return['status']=true;

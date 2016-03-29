@@ -7,7 +7,7 @@
  */
 
 class FileLIB {
-    public function upload($file,$file_path='./file/',$alowExt=array('jpg','png','jpeg','wbmp')){
+    public function upload($file,$file_path='./file/',$alowExt=array('jpg','png','jpeg','wbmp','zip','docx','doc','rar')){
         $return=array();
         $filename=$file['name'];
         $type=$file['type'];
@@ -44,7 +44,7 @@ class FileLIB {
                     $return['error_mess']='超过配置文件上传大小'; //UPLOAD_ERR_INI_SIZE
                     break;
                 case 2:
-                    $return['errror_mess']='超过表单上传大小';//UPLOAD_ERR_FORM_SIZE
+                    $return['error_mess']='超过表单上传大小';//UPLOAD_ERR_FORM_SIZE
                 break;
                 case 3:
                     $return['error_mess']='文件部分被上传';//UPLOAD_ERR_PARTIAL
@@ -82,6 +82,6 @@ class FileLIB {
      * @return string
      */
     public function getExt($filename){
-        return strtolower(end(explode('.',$filename)));
+        return @strtolower(end(explode('.',$filename)));
     }
 }

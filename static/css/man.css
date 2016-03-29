@@ -1,9 +1,9 @@
-.nav { background-color: #474747; height: 3.5em; line-height: 3.5em; padding: 0 5% 0 2% ; color: #fff; }
-.nav .dropdown { float: right; }
-.nav a { color: #fff; }
-.nav a:link { color: #fff; }
-.nav a:hover,a:focus { text-decoration: none; }
-.nav .open>a, .nav .open>a:focus, .nav .open>a:hover { background-color: transparent; }
+.nav-default { background-color: #474747; height: 3.5em; line-height: 3.5em; padding: 0 5% 0 2% ; color: #fff; }
+.nav-default .dropdown { float: right; }
+.nav-default a { color: #fff; }
+.nav-default a:link { color: #fff; }
+.nav-default a:hover,a:focus { text-decoration: none; }
+.nav-default .open>a, .nav .open>a:focus, .nav .open>a:hover { background-color: transparent; }
 
 .course-wrap { margin-top: 4em; padding-left: 3em; }
 .course-content { width: 100%; padding: 3%; }
@@ -15,4 +15,5 @@
 .course-content .has-course li .course-tips { display: block; width: 100%; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
 .box-border{border: solid 1px #CCCCCC;padding: 15px;margin-top: 15px;}
 .user-image{width: 120px;hight:120px;border-radius: 120px;}
+.lesson-code{font-size: large;color: #333333;margin: auto 5px;}
 /*.nav-default{background-color: #ffffff}*/

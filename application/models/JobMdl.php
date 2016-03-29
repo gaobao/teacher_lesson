@@ -75,7 +75,7 @@ class JobMdl extends CI_Model {
         $res=$this->db->get();
         if($res){
             $this->_return['status']=true;
-            $this->_return['result']=$res;
+            $this->_return['result']=$res->result_array();
         }else{
             $this->_return['status']=false;
             $this->_return['error_mess']='查询出错';
