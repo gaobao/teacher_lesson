@@ -15,12 +15,8 @@
 <script type="text/javascript" src="<?PHP echo base_url('/static/js/main.js');?>"></script>
 <body>
 <header class="nav nav-default">
-<<<<<<< HEAD
     <span class="nav-title"><a href="<?php echo base_url();?>">云备课系统</a></span>
-=======
-    <span class="nav-title">云备课系统</span>
->>>>>>> d0e5d0e8fa5b15f30919ca3d097bb8a76de267da
-		 <span role="presentation" class="dropdown">
+<span role="presentation" class="dropdown">
 		    <a id="teacher-name" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                 <span class="caret"></span> <?php echo $userinfo['name'];?>
             </a>
