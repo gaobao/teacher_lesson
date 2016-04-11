@@ -27,8 +27,6 @@ class Teacher extends CI_Controller {
         $this->load->view('header',$this->_data);
         $this->load->view('teacher.html');
         $this->load->view('footer');
-<<<<<<< HEAD
-=======
     }
     public function update_info(){
         $username=isset($_POST['username'])?$_POST['username']:'';
@@ -44,10 +42,6 @@ class Teacher extends CI_Controller {
             );
 
         }
-    }
-    public function change_passwd(){
-
->>>>>>> d0e5d0e8fa5b15f30919ca3d097bb8a76de267da
     }
     public function api(){
         $return=array();

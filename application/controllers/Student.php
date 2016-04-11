@@ -21,7 +21,7 @@ class Student extends CI_Controller {
     }
 
     /**
-     * 展示教师信息页
+     * 展示学生信息页
      */
     public function index(){
         $this->load->view('header',$this->_data);
