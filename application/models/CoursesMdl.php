@@ -128,4 +128,82 @@ class CoursesMdl extends CI_Model {
         }
         return $return;
     }
+    public function getStudent($lesson_id){
+        $return=array();
+        $select = "select * from le_lesson_record left join le_lesson";
+        $select .= " on le_lesson_record.lesson_id = le_lesson.id left join ";
+        $select .= " le_student on le_lesson_record.student_id = le_student.id where le_lesson_record.lesson_id = '{$lesson_id}'";
+        $query = $this->db->query($select);
+        $res = $query->result_array();
+        return $res;
+    }
+    public function getAttachment($lesson_id){
+        $sql = "select * from le_attachment where lesson_id = '{$lesson_id}'";
+        $query = $this->db->query($sql);
+        $res = $query->result_array($query);
+        return $res;
+    }
+    public function getMaterial($lesson_id){
+        $sql = "select * from le_material where lesson_id = '{$lesson_id}'";
+        $query = $this->db->query($sql);
+        $res = $query->result_array($query);
+        return $res;
+    }
+    public function delete_file($id,$type){
+        $return = array();
+        switch($type){
+            case 'material':
+                $this->table_mdl->setTable('le_material');
+                break;
+            case 'attachment':
+                $this->table_mdl->setTable('le_attachment');
+                break;
+            case 'job':
+                $this->table_mdl->setTable('le_job');
+                break;
+            default:
+                break;
+        }
+        $where = array('id'=>$id);
+        $res=$this->table_mdl->get($where);
+        log_message('debug',print_r($res,true));
+        foreach($res['result'] as $key=>$value){
+            if($type == 'job'){
+                if (unlink(ATTACHMENTPATH . $value['filename'])) {
+                    $this->table_mdl->delete($where);
+                }
+            }else {
+                if (unlink(ATTACHMENTPATH . $value['file_url'])) {
+                    $this->table_mdl->delete($where);
+                }
+            }
+        }
+    }
+    public function change_student_status($lesson_id,$student_id,$status){
+        $where = array(
+            'lesson_id' =>$lesson_id,
+            'student_id' =>$student_id
+        );
+        $data = array(
+            'status' => $status
+        );
+        $this->table_mdl->setTable('le_lesson_record');
+        $result = $this->table_mdl->update($where,$data);
+        return $result;
+    }
+    public function getStudentJurisdiction($lesson_id,$student_id){
+        $this->load->database();
+        $sql = "select status from le_lesson_record where lesson_id = '{$lesson_id}' and student_id = '{$student_id}'";
+        $query = $this->db->query($sql);
+        $result = $query->result_array();
+//        if(empty($result)){
+//            $return['status'] = false;
+//            $return['error_mess'] = '未选择该课程';
+//        }else{
+//            $return['status'] = '';
+//            $return['result'] = $result['0']['status'];
+//        }
+//        return $return;
+        return $result[0]['status'];
+    }
 }

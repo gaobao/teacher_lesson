@@ -35,7 +35,7 @@ $(function(){
             location.href=base_url+'courses';
 			//to url index html
 			// window.location.href =
-            location.href=base_url+'login';
+            //location.href=base_url+'login';
 		}, "json");
 	});
 });

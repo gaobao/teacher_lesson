@@ -1,0 +1,56 @@
+<div class="container">
+    <table class="table-bordered table-hover table">
+        <thead>
+            <tr>
+                <th>学生姓名</th>
+                <th>学生工号</th>
+                <th>考勤状态</th>
+            </tr>
+        </thead>
+        <tbody>
+        <?php
+            if(isset($student_list)&&!empty($student_list)&&is_array($student_list)){
+                foreach($student_list as $key=>$value){
+        ?>
+        <tr>
+            <td><?php echo $value['name'];?></td>
+            <td><?php echo $value['studentCode'];?></td>
+            <td><input type="hidden" name="student_id" value="<?php echo $value['student_id'];?>">
+                <select name="sign">
+                    <option value="0" >未签到</option>
+                    <option value="1" <?php if(!empty($value['sign_id'])){ echo "selected";};?>>已签到</option>
+                </select>
+            </td>
+        </tr>
+        <?php
+                }
+            }else{
+
+                ?>
+                <tr>
+                    <td colspan="3">无学生记录</td>
+                </tr>
+                <?php
+            }
+        ?>
+
+        </tbody>
+    </table>
+</div>
+<script>
+    $(document).ready(function(){
+        $('select').change(function(){
+            var _data = {};
+            var status = $(this).val();
+            var student_id = $(this).prev().val();
+            _data['status'] = status;
+            _data['student_id'] = student_id;
+            $.post(base_url+'sign/signStudentCreate?sign_id=<?php echo $sign_id;?>',_data,function(data){
+                var result = $.parseJSON(data);
+                if(result['status'] == false){
+                    alert('考勤异常，刷新后重试');
+                }
+            });
+        });
+    });
+</script>

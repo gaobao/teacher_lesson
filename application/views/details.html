@@ -1,107 +1,179 @@
+<?php
+if($userinfo['type'] == 'student'){
+    switch($jurisdiction){
+        case 'agree':
+        ?>
 <div class="col-xs-12">
-    <div class="jumbotron" >
-        <div class="container">
-            <h3>课程编号</h3>
-            <h3 title="使用该号码加入课程"><?php echo $course['lesson_code'];?></h3>
-        </div>
+    <div class="jumbotron" style='background: url("<?php echo base_url('static/images/'.rand(10,19).'.jpg')?>");'>
+    <div class="container">
+        <h3 class ='white-font'>课程编号</h3>
+        <h3 class ='white-font' title="使用该号码加入课程"><?php echo $course['lesson_code'];?></h3>
+
     </div>
-    <?php if($course['lesson_code']=='该课程不存在'){
+</div>
+<?php if($course['lesson_code']=='该课程不存在'){
         //exit();
     }?>
-    <div class="container">
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active"><a href="#lesson" aria-controls="home" role="tab" data-toggle="tab">课程详情</a></li>
-                <li role="presentation"><a href="#job" aria-controls="profile" role="tab" data-toggle="tab">作业</a></li>
-                <li role="presentation"><a href="#file" aria-controls="messages" role="tab" data-toggle="tab">资料</a></li>
-                <li role="presentation"><a href="#material" aria-controls="material" role="tab" data-toggle="tab">讲义</a></li>
-                <li role="presentation"><a href="#student" aria-controls="settings" role="tab" data-toggle="tab">选课学生</a></li>
-            </ul>
-            <!-- Tab panes -->
-            <div class="tab-content box-border">
-                <div role="tabpanel" class="tab-pane active" id="lesson">
-                    <div class="jumbotron">
-                            <h3>课程名称：<?php echo $course['lesson_name'];?></h3>
-                            <h3>课程介绍：<?php echo $course['lesson_desc'];?></h3>
-                            <h3>开课时间：<?php echo $course['timestamp'];?></h3>
-                    </div>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="job">
-                    <table class="table table-hover">
-                       <thead class="table table-hover table-bordered">
-                       <th>作业名称</th>
-                       <th>作业附件</th>
-                       <th>作业分数</th>
-                       <th>作业状态</th>
-                       <th>操作</th>
-                       </thead>
-                        <tbody>
-                        <tr ><td colspan="5"><button class="btn btn-primary" data-toggle="modal" data-target="#create-job">新增</button></td></tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="file">
-                    <table class="table table-hover">
-                        <thead class="table table-hover table-bordered">
-                        <th>文件名称</th>
-                        <th>上传时间</th>
-                        <th>操作</th>
-                        </thead>
-                        <tbody>
-                        <tr><td colspan="3"><button class="btn btn-primary" data-toggle="modal" data-target="#create-file">上传</button></td></tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="material">
-                    <table class="table table-hover table-bordered">
-                        <thead class="table table-hover">
-                        <th>讲义名称</th>
-                        <th>上传时间</th>
-                        <th>操作</th>
-                        </thead>
-                        <tbody>
-                        <tr><td><button class="btn btn-primary" data-toggle="modal" data-target="#create-material">上传</button></td></tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="student">
-                    <table class="table table-hover table-bordered">
-                        <thead class="table table-hover">
-                        <th>学生姓名</th>
-                        <th>学生学号</th>
-                        <th>加入课程时间</th>
-                        <th>操作</th>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td> </td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-
+<div class="container">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#lesson" aria-controls="home" role="tab" data-toggle="tab">课程详情</a></li>
+        <li role="presentation"><a href="#job" aria-controls="profile" role="tab" data-toggle="tab">作业</a></li>
+        <li role="presentation"><a href="#file" aria-controls="messages" role="tab" data-toggle="tab">资料</a></li>
+        <li role="presentation"><a href="#material" aria-controls="material" role="tab" data-toggle="tab">讲义</a></li>
+        <?php if($userinfo['type']=='teacher'){?>  <li role="presentation"><a href="#student" aria-controls="settings" role="tab" data-toggle="tab">选课学生</a></li><?php }?>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content box-border">
+        <div role="tabpanel" class="tab-pane active" id="lesson">
+            <div class="jumbotron">
+                <h3>课程名称：<?php echo $course['lesson_name'];?></h3>
+                <h3>课程介绍：<?php echo $course['lesson_desc'];?></h3>
+                <h3>开课时间：<?php echo $course['timestamp'];?></h3>
             </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="job">
+            <table class="table table-hover">
+                <thead class="table table-hover table-bordered">
+                <th>作业名称</th>
+                <th>作业附件</th>
+                <th>上传时间</th>
+                <th>作业截止时间</th>
+                <th>操作</th>
+                </thead>
+                <tbody>
+                <?php if($userinfo['type']=='teacher'){?><tr ><td colspan="5"><button class="btn btn-primary" data-toggle="modal" data-target="#create-job">新增</button></td></tr><?php }?>
+
+                <?php if(isset($job_list)){
+                            foreach($job_list as $key =>$value){
+                ?>
+                <tr>
+                    <td><?php echo $value['name'];?></td>
+                    <td><a href="<?php echo base_url('download/index?filename='.$value['filename']);?>">下载</a></td>
+                    <td><?php echo $value['timestamp'];?></td>
+                    <td><?php echo $value['end_time'];?></td>
+                    <td>
+                        <a href="<?php echo  base_url('job/index?job_id='.$value['id']);?>">作业详情</a>
+                        <?php if($userinfo['type']=='teacher'){?><a href="<?php echo base_url('courses/delete_file?lesson_id='.$lesson_id.'&type=job&id='.$value['id']);?>">删除</a>||<?php }?>
+                    </td>
+
+                </tr>
+                <?php
+                            }
+                            }else{
+                            ?>
+                <tr>
+                    <td colspan="5">无作业</td>
+                </tr>
+
+                <?php
+                            }
+                            ?>
+                </tbody>
+            </table>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="file">
+            <table class="table table-hover">
+                <thead class="table table-hover table-bordered">
+                <th>文件名称</th>
+                <th>上传时间</th>
+                <th>操作</th>
+                </thead>
+                <tbody>
+                <?php if($userinfo['type']=='teacher'){?><tr><td colspan="3"><button class="btn btn-primary" data-toggle="modal" data-target="#create-file">上传</button></td></tr><?php }?>
+                <?php if(!empty($attachment_list)){
+                            foreach($attachment_list as $key=>$value){
+                ?>
+                <tr>
+                    <td><?php echo $value['filename'];?></td>
+                    <td><?php echo $value['timestamp'];?></td>
+                    <td>
+                        <?php if($userinfo['type']=='teacher'){?><a href="<?php echo base_url('courses/delete_file?lesson_id='.$lesson_id.'&type=attachment&id='.$value['id']);?>">删除</a>||<?php }?>
+                        <a href="<?php echo base_url('download/index?filename='.$value['file_url']);?>">下载</a>
+                    </td>
+                </tr>
+                <?php
+                            }
+                            }else{
+                            ?>
+                <tr><td colspan="3">无记录</td></tr>
+                <?php
+                            }
+                        ?>
+
+                </tbody>
+            </table>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="material">
+            <table class="table table-hover table-bordered">
+                <thead class="table table-hover">
+                <th>讲义名称</th>
+                <th>上传时间</th>
+                <th>操作</th>
+                </thead>
+                <tbody>
+                <?php if($userinfo['type']=='teacher'){?><tr><td><button class="btn btn-primary" data-toggle="modal" data-target="#create-material">上传</button></td></tr><?php }?>
+                <?php if(!empty($material_list)){
+                            foreach($material_list as $key=>$value){
+                ?>
+                <tr>
+                    <td><?php echo $value['filename'];?></td>
+                    <td><?php echo $value['timestamp'];?></td>
+                    <td><?php if($userinfo['type']=='teacher'){?>
+                        <a href="<?php echo base_url('courses/delete_file?lesson_id='.$lesson_id.'&type=material&id='.$value['id']);?>">删除</a>||<?php }?>
+                        <a href="<?php echo base_url('download/index?filename='.$value['file_url']);?>">下载</a>
+                    </td>
+                </tr>
+                <?php
+                            }
+                            }else{
+                            ?>
+                <tr><td colspan="3">无记录</td></tr>
+                <?php
+                            }
+                        ?>
+                </tbody>
+            </table>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="student">
+            <table class="table table-hover table-bordered">
+                <thead class="table table-hover">
+                <th>学生姓名</th>
+                <th>学生学号</th>
+                <th>状态</th>
+                </thead>
+                <tbody>
+                <?php
+                            if(!empty($student_list)){
+                                foreach($student_list as $key=>$value){
+                ?>
+                <tr>
+                    <td><?php echo $value['name'];?></td>
+                    <td><?php echo $value['student_id'];?></td>
+                    <td>
+                        <select name="student_status" class="student_status">
+                            <option value="wait" <?php if($value['status']=='wait'){ echo 'selected';}?>>等待</option>
+                            <option value="agree" <?php if($value['status']=='agree'){ echo 'selected';}?>>同意</option>
+                            <option value="refuse"  <?php if($value['status']=='refuse'){ echo 'selected';}?>>拒绝</option>
+                        </select>
+                        <input type="hidden" class = 'student_id' value="<?php echo $value['id'];?>">
+                        <input type="hidden" class = 'lesson_id' value="<?php echo $value['lesson_id'];?>">
+                    </td>
+                </tr>
+                <?php
+                                }
+                            }else{
+                        ?>
+                <tr><td colspan="4">无记录</td></tr>
+                <?php
+                            }
+                        ?>
+                </tbody>
+            </table>
+        </div>
+
     </div>
+</div>
 </div>
 
 <!-- Modal 新建作业 -->
@@ -113,14 +185,42 @@
                 <h4 class="modal-title">创建新的作业</h4>
             </div>
             <div class="modal-body">
-                ...
+                <form class="form-horizontal" name="create-job" method="post" action="<?php echo base_url('job/create_job');?>" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="job-name" class="col-sm-2 control-label">作业名称</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="job_name" class="form-control" id="job-name" placeholder="作业名称">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="end-time" class="col-sm-2 control-label">截止时间</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="end_time" class="form-control form_datetime" readonly  id="end-time" placeholder="截止时间" value="">
+                            <input type="hidden" name="lesson_id" id="lesson-id" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="upload-file" class="col-sm-2 control-label">上传作业</label>
+                        <div class="col-sm-10">
+                            <!--<input id="upload-file" type="file" name="file">-->
+                            <input id="file-name" type="file" name="file" >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">提交</button>
+                        </div>
+                    </div>
+                </form>
             </div>
+
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                <button type="button" class="btn btn-primary">提交</button>
+                <!--<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>-->
+                <!--<button type="button" class="btn btn-primary" id="job-submit">提交</button>-->
             </div>
         </div>
     </div>
+
 </div>
 <!--新建资料-->
 <div class="modal fade" id="create-file" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -131,11 +231,23 @@
                 <h4 class="modal-title" >新建资料</h4>
             </div>
             <div class="modal-body">
-                ...
+                <form class="form-horizontal" action="<?php echo base_url('courses/uploadFile?lesson_id='.$lesson_id.'&type=attachment');?>" enctype="multipart/form-data" method="post">
+                    <div class="form-group">
+                        <label for="upload-file1" class="col-sm-2 control-label">上传资料</label>
+                        <div class="col-sm-10">
+                            <input id="upload-file1" type="file" name="file">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">提交</button>
+                        </div>
+                    </div>
+                </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                <!--<button type="button" class="btn btn-primary">Save changes</button>-->
             </div>
         </div>
     </div>
@@ -149,12 +261,354 @@
                 <h4 class="modal-title" >新建讲义</h4>
             </div>
             <div class="modal-body">
-                ...
+                <form class="form-horizontal" action="<?php echo base_url('courses/uploadFile?lesson_id='.$lesson_id.'&type=material');?>" enctype="multipart/form-data" method="post">
+                    <div class="form-group">
+                        <label for="upload-file2" class="col-sm-2 control-label">上传讲义</label>
+                        <div class="col-sm-10">
+                            <input id="upload-file2" type="file" name="file">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">提交</button>
+                        </div>
+                    </div>
+                </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                <!--<button type="button" class="btn btn-primary">Save changes</button>-->
             </div>
         </div>
     </div>
 </div>
+        <?php
+        break;
+        case 'wait':
+        ?>
+<div class="col-xs-12">
+    <div class="jumbotron" style='background: url("<?php echo base_url('static/images/'.rand(10,19).'.jpg')?>");'>
+    <div class="container">
+        <h3 class ='white-font'>课程编号</h3>
+        <h3 class ='white-font' title="使用该号码加入课程"><?php echo $course['lesson_code'];?></h3>
+        <h3 class = white-font>请等待教师同意</h3>
+    </div>
+</div>
+        <?php
+        break;
+        case 'refuse':
+        ?>
+<div class="col-xs-12">
+    <div class="jumbotron" style='background: url("<?php echo base_url('static/images/'.rand(10,19).'.jpg')?>");'>
+    <div class="container">
+        <h3 class ='white-font'>课程编号</h3>
+        <h3 class ='white-font' title="使用该号码加入课程"><?php echo $course['lesson_code'];?></h3>
+        <h3 class ='white-font'>你的申请被拒绝</h3>
+    </div>
+</div>
+        <?php
+        break;
+        default:
+        ?>
+<div class="col-xs-12">
+    <div class="jumbotron" style='background: url("<?php echo base_url('static/images/'.rand(10,19).'.jpg')?>");'>
+    <div class="container">
+        <h3 class ='white-font'>课程编号</h3>
+        <h3 class ='white-font' title="使用该号码加入课程"><?php echo $course['lesson_code'];?></h3>
+        <h3 class ='white-font'>您未选择该课程</h3>
+    </div>
+</div>
+        <?php
+        break;
+    }
+}else{
+?>
+<div class="col-xs-12">
+    <div class="jumbotron" style='background: url("<?php echo base_url('static/images/'.rand(10,19).'.jpg')?>");'>
+    <div class="container">
+        <h3 class ='white-font'>课程编号</h3>
+        <h3 class ='white-font' title="使用该号码加入课程"><?php echo $course['lesson_code'];?></h3>
+        <h3 ><a class ='white-font' href="<?php echo base_url('sign?lesson_id='.$lesson_id);?>">点击考勤</a></h3>
+    </div>
+</div>
+<?php if($course['lesson_code']=='该课程不存在'){
+        //exit();
+    }?>
+<div class="container">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#lesson" aria-controls="home" role="tab" data-toggle="tab">课程详情</a></li>
+        <li role="presentation"><a href="#job" aria-controls="profile" role="tab" data-toggle="tab">作业</a></li>
+        <li role="presentation"><a href="#file" aria-controls="messages" role="tab" data-toggle="tab">资料</a></li>
+        <li role="presentation"><a href="#material" aria-controls="material" role="tab" data-toggle="tab">讲义</a></li>
+        <?php if($userinfo['type']=='teacher'){?>  <li role="presentation"><a href="#student" aria-controls="settings" role="tab" data-toggle="tab">选课学生</a></li><?php }?>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content box-border">
+        <div role="tabpanel" class="tab-pane active" id="lesson">
+            <div class="jumbotron">
+                <h3>课程名称：<?php echo $course['lesson_name'];?></h3>
+                <h3>课程介绍：<?php echo $course['lesson_desc'];?></h3>
+                <h3>开课时间：<?php echo $course['timestamp'];?></h3>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="job">
+            <table class="table table-hover">
+                <thead class="table table-hover table-bordered">
+                <th>作业名称</th>
+                <th>作业附件</th>
+                <th>上传时间</th>
+                <th>作业截止时间</th>
+                <th>操作</th>
+                </thead>
+                <tbody>
+                <?php if($userinfo['type']=='teacher'){?><tr ><td colspan="5"><button class="btn btn-primary" data-toggle="modal" data-target="#create-job">新增</button></td></tr><?php }?>
+
+                <?php if(isset($job_list)){
+                            foreach($job_list as $key =>$value){
+                ?>
+                <tr>
+                    <td><?php echo $value['name'];?></td>
+                    <td><a href="<?php echo base_url('download/index?filename='.$value['filename']);?>">下载</a></td>
+                    <td><?php echo $value['timestamp'];?></td>
+                    <td><?php echo $value['end_time'];?></td>
+                    <td>
+                        <a href="<?php echo  base_url('job?job_id='.$value['id']);?>">作业详情</a>
+                        <?php if($userinfo['type']=='teacher'){?><a href="<?php echo base_url('courses/delete_file?lesson_id='.$lesson_id.'&type=job&id='.$value['id']);?>">删除</a>||<?php }?>
+                    </td>
+
+                </tr>
+                <?php
+                            }
+                            }else{
+                            ?>
+                <tr>
+                    <td colspan="5">无作业</td>
+                </tr>
+
+                <?php
+                            }
+                            ?>
+                </tbody>
+            </table>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="file">
+            <table class="table table-hover">
+                <thead class="table table-hover table-bordered">
+                <th>文件名称</th>
+                <th>上传时间</th>
+                <th>操作</th>
+                </thead>
+                <tbody>
+                <?php if($userinfo['type']=='teacher'){?><tr><td colspan="3"><button class="btn btn-primary" data-toggle="modal" data-target="#create-file">上传</button></td></tr><?php }?>
+                <?php if(!empty($attachment_list)){
+                            foreach($attachment_list as $key=>$value){
+                ?>
+                <tr>
+                    <td><?php echo $value['filename'];?></td>
+                    <td><?php echo $value['timestamp'];?></td>
+                    <td>
+                        <?php if($userinfo['type']=='teacher'){?><a href="<?php echo base_url('courses/delete_file?lesson_id='.$lesson_id.'&type=attachment&id='.$value['id']);?>">删除</a>||<?php }?>
+                        <a href="<?php echo base_url('download/index?filename='.$value['file_url']);?>">下载</a>
+                    </td>
+                </tr>
+                <?php
+                            }
+                            }else{
+                            ?>
+                <tr><td colspan="3">无记录</td></tr>
+                <?php
+                            }
+                        ?>
+
+                </tbody>
+            </table>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="material">
+            <table class="table table-hover table-bordered">
+                <thead class="table table-hover">
+                <th>讲义名称</th>
+                <th>上传时间</th>
+                <th>操作</th>
+                </thead>
+                <tbody>
+                <?php if($userinfo['type']=='teacher'){?><tr><td><button class="btn btn-primary" data-toggle="modal" data-target="#create-material">上传</button></td></tr><?php }?>
+                <?php if(!empty($material_list)){
+                            foreach($material_list as $key=>$value){
+                ?>
+                <tr>
+                    <td><?php echo $value['filename'];?></td>
+                    <td><?php echo $value['timestamp'];?></td>
+                    <td><?php if($userinfo['type']=='teacher'){?>
+                        <a href="<?php echo base_url('courses/delete_file?lesson_id='.$lesson_id.'&type=material&id='.$value['id']);?>">删除</a>||<?php }?>
+                        <a href="<?php echo base_url('download/index?filename='.$value['file_url']);?>">下载</a>
+                    </td>
+                </tr>
+                <?php
+                            }
+                            }else{
+                            ?>
+                <tr><td colspan="3">无记录</td></tr>
+                <?php
+                            }
+                        ?>
+                </tbody>
+            </table>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="student">
+            <table class="table table-hover table-bordered">
+                <thead class="table table-hover">
+                <th>学生姓名</th>
+                <th>学生学号</th>
+                <th>状态</th>
+                </thead>
+                <tbody>
+                <?php
+                            if(!empty($student_list)){
+                                foreach($student_list as $key=>$value){
+                ?>
+                <tr>
+                    <td><?php echo $value['name'];?></td>
+                    <td><?php echo $value['student_id'];?></td>
+                    <td>
+                        <select name="student_status" id="student_status">
+                            <option value="wait" <?php if($value['status']=='wait'){ echo 'selected';}?>>等待</option>
+                            <option value="agree" <?php if($value['status']=='agree'){ echo 'selected';}?>>同意</option>
+                            <option value="refuse"  <?php if($value['status']=='refuse'){ echo 'selected';}?>>拒绝</option>
+                        </select>
+                        <input type="hidden" class = 'student_id' value="<?php echo $value['id'];?>">
+                        <input type="hidden" class = 'lesson_id' value="<?php echo $value['lesson_id'];?>">
+                    </td>
+                </tr>
+                <?php
+                                }
+                            }else{
+                        ?>
+                <tr><td colspan="4">无记录</td></tr>
+                <?php
+                            }
+                        ?>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<!-- Modal 新建作业 -->
+<div class="modal fade" id="create-job" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">创建新的作业</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" name="create-job" method="post" action="<?php echo base_url('job/create_job');?>" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="job-name" class="col-sm-2 control-label">作业名称</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="job_name" class="form-control" id="job-name" placeholder="作业名称">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="end-time" class="col-sm-2 control-label">截止时间</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="end_time" class="form-control form_datetime" readonly  id="end-time" placeholder="截止时间" value="">
+                            <input type="hidden" name="lesson_id" id="lesson-id" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="upload-file" class="col-sm-2 control-label">上传作业</label>
+                        <div class="col-sm-10">
+                            <!--<input id="upload-file" type="file" name="file">-->
+                            <input id="file-name" type="file" name="file" >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">提交</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <!--<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>-->
+                <!--<button type="button" class="btn btn-primary" id="job-submit">提交</button>-->
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--新建资料-->
+<div class="modal fade" id="create-file" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" >新建资料</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" action="<?php echo base_url('courses/uploadFile?lesson_id='.$lesson_id.'&type=attachment');?>" enctype="multipart/form-data" method="post">
+                    <div class="form-group">
+                        <label for="upload-file1" class="col-sm-2 control-label">上传资料</label>
+                        <div class="col-sm-10">
+                            <input id="upload-file1" type="file" name="file">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">提交</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--新建讲义-->
+<div class="modal fade" id="create-material" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" >新建讲义</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" action="<?php echo base_url('courses/uploadFile?lesson_id='.$lesson_id.'&type=material');?>" enctype="multipart/form-data" method="post">
+                    <div class="form-group">
+                        <label for="upload-file2" class="col-sm-2 control-label">上传讲义</label>
+                        <div class="col-sm-10">
+                            <input id="upload-file2" type="file" name="file">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">提交</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<?php
+
+}
+
+
+?>
+
+<script type="application/javascript" src="<?php echo base_url('static/js/course_details.js');?>"></script>

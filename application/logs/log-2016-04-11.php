@@ -648,3 +648,118 @@ INFO - 2016-04-11 15:40:36 --> Model Class Initialized
 INFO - 2016-04-11 15:40:36 --> table 
 INFO - 2016-04-11 15:40:36 --> Final output sent to browser
 DEBUG - 2016-04-11 15:40:36 --> Total execution time: 0.1093
+INFO - 2016-04-11 15:45:00 --> Config Class Initialized
+INFO - 2016-04-11 15:45:00 --> Hooks Class Initialized
+DEBUG - 2016-04-11 15:45:00 --> UTF-8 Support Enabled
+INFO - 2016-04-11 15:45:00 --> Utf8 Class Initialized
+INFO - 2016-04-11 15:45:00 --> URI Class Initialized
+INFO - 2016-04-11 15:45:00 --> Router Class Initialized
+INFO - 2016-04-11 15:45:00 --> Output Class Initialized
+INFO - 2016-04-11 15:45:00 --> Security Class Initialized
+DEBUG - 2016-04-11 15:45:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-11 15:45:00 --> Input Class Initialized
+INFO - 2016-04-11 15:45:00 --> Language Class Initialized
+INFO - 2016-04-11 15:45:00 --> Loader Class Initialized
+INFO - 2016-04-11 15:45:00 --> Helper loaded: url_helper
+INFO - 2016-04-11 15:45:00 --> Session: Class initialized using 'files' driver.
+INFO - 2016-04-11 15:45:00 --> Controller Class Initialized
+INFO - 2016-04-11 15:45:00 --> Model Class Initialized
+INFO - 2016-04-11 15:45:00 --> Database Driver Class Initialized
+INFO - 2016-04-11 15:45:00 --> Model Class Initialized
+INFO - 2016-04-11 15:45:00 --> table 
+INFO - 2016-04-11 15:45:00 --> File loaded: E:\workspace\phpwork\cloud_system\application\views\header.php
+INFO - 2016-04-11 15:45:00 --> File loaded: E:\workspace\phpwork\cloud_system\application\views\teacher.html
+INFO - 2016-04-11 15:45:00 --> File loaded: E:\workspace\phpwork\cloud_system\application\views\footer.php
+INFO - 2016-04-11 15:45:00 --> Final output sent to browser
+DEBUG - 2016-04-11 15:45:00 --> Total execution time: 0.0988
+INFO - 2016-04-11 15:45:00 --> Config Class Initialized
+INFO - 2016-04-11 15:45:00 --> Hooks Class Initialized
+DEBUG - 2016-04-11 15:45:00 --> UTF-8 Support Enabled
+INFO - 2016-04-11 15:45:00 --> Utf8 Class Initialized
+INFO - 2016-04-11 15:45:00 --> URI Class Initialized
+INFO - 2016-04-11 15:45:00 --> Router Class Initialized
+INFO - 2016-04-11 15:45:00 --> Output Class Initialized
+INFO - 2016-04-11 15:45:00 --> Security Class Initialized
+DEBUG - 2016-04-11 15:45:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-11 15:45:00 --> Input Class Initialized
+INFO - 2016-04-11 15:45:00 --> Language Class Initialized
+INFO - 2016-04-11 15:45:00 --> Loader Class Initialized
+INFO - 2016-04-11 15:45:00 --> Helper loaded: url_helper
+INFO - 2016-04-11 15:45:00 --> Session: Class initialized using 'files' driver.
+INFO - 2016-04-11 15:45:00 --> Controller Class Initialized
+INFO - 2016-04-11 15:45:00 --> Model Class Initialized
+INFO - 2016-04-11 15:45:00 --> Database Driver Class Initialized
+INFO - 2016-04-11 15:45:00 --> Model Class Initialized
+INFO - 2016-04-11 15:45:00 --> table 
+INFO - 2016-04-11 15:45:00 --> Final output sent to browser
+DEBUG - 2016-04-11 15:45:00 --> Total execution time: 0.1330
+INFO - 2016-04-11 15:45:07 --> Config Class Initialized
+INFO - 2016-04-11 15:45:07 --> Hooks Class Initialized
+DEBUG - 2016-04-11 15:45:07 --> UTF-8 Support Enabled
+INFO - 2016-04-11 15:45:07 --> Utf8 Class Initialized
+INFO - 2016-04-11 15:45:07 --> URI Class Initialized
+DEBUG - 2016-04-11 15:45:07 --> No URI present. Default controller set.
+INFO - 2016-04-11 15:45:07 --> Router Class Initialized
+INFO - 2016-04-11 15:45:07 --> Output Class Initialized
+INFO - 2016-04-11 15:45:07 --> Security Class Initialized
+DEBUG - 2016-04-11 15:45:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-11 15:45:07 --> Input Class Initialized
+INFO - 2016-04-11 15:45:07 --> Language Class Initialized
+INFO - 2016-04-11 15:45:07 --> Loader Class Initialized
+INFO - 2016-04-11 15:45:07 --> Helper loaded: url_helper
+INFO - 2016-04-11 15:45:07 --> Session: Class initialized using 'files' driver.
+INFO - 2016-04-11 15:45:07 --> Controller Class Initialized
+INFO - 2016-04-11 15:45:07 --> Model Class Initialized
+INFO - 2016-04-11 15:45:07 --> Database Driver Class Initialized
+INFO - 2016-04-11 15:45:07 --> Model Class Initialized
+INFO - 2016-04-11 15:45:07 --> table 
+INFO - 2016-04-11 15:45:07 --> Config Class Initialized
+INFO - 2016-04-11 15:45:07 --> Hooks Class Initialized
+DEBUG - 2016-04-11 15:45:07 --> UTF-8 Support Enabled
+INFO - 2016-04-11 15:45:07 --> Utf8 Class Initialized
+INFO - 2016-04-11 15:45:07 --> URI Class Initialized
+INFO - 2016-04-11 15:45:07 --> Router Class Initialized
+INFO - 2016-04-11 15:45:07 --> Output Class Initialized
+INFO - 2016-04-11 15:45:07 --> Security Class Initialized
+DEBUG - 2016-04-11 15:45:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-11 15:45:07 --> Input Class Initialized
+INFO - 2016-04-11 15:45:07 --> Language Class Initialized
+INFO - 2016-04-11 15:45:07 --> Loader Class Initialized
+INFO - 2016-04-11 15:45:07 --> Helper loaded: url_helper
+INFO - 2016-04-11 15:45:07 --> Session: Class initialized using 'files' driver.
+INFO - 2016-04-11 15:45:07 --> Controller Class Initialized
+INFO - 2016-04-11 15:45:07 --> Model Class Initialized
+INFO - 2016-04-11 15:45:07 --> Database Driver Class Initialized
+INFO - 2016-04-11 15:45:07 --> Model Class Initialized
+INFO - 2016-04-11 15:45:07 --> table 
+INFO - 2016-04-11 15:45:07 --> Model Class Initialized
+INFO - 2016-04-11 15:45:07 --> File loaded: E:\workspace\phpwork\cloud_system\application\views\header.php
+INFO - 2016-04-11 15:45:07 --> File loaded: E:\workspace\phpwork\cloud_system\application\views\teacher_index.html
+INFO - 2016-04-11 15:45:07 --> File loaded: E:\workspace\phpwork\cloud_system\application\views\footer.php
+INFO - 2016-04-11 15:45:07 --> Final output sent to browser
+DEBUG - 2016-04-11 15:45:07 --> Total execution time: 0.1106
+INFO - 2016-04-11 15:45:11 --> Config Class Initialized
+INFO - 2016-04-11 15:45:11 --> Hooks Class Initialized
+DEBUG - 2016-04-11 15:45:11 --> UTF-8 Support Enabled
+INFO - 2016-04-11 15:45:11 --> Utf8 Class Initialized
+INFO - 2016-04-11 15:45:11 --> URI Class Initialized
+INFO - 2016-04-11 15:45:11 --> Router Class Initialized
+INFO - 2016-04-11 15:45:11 --> Output Class Initialized
+INFO - 2016-04-11 15:45:11 --> Security Class Initialized
+DEBUG - 2016-04-11 15:45:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-11 15:45:11 --> Input Class Initialized
+INFO - 2016-04-11 15:45:11 --> Language Class Initialized
+INFO - 2016-04-11 15:45:11 --> Loader Class Initialized
+INFO - 2016-04-11 15:45:11 --> Helper loaded: url_helper
+INFO - 2016-04-11 15:45:11 --> Session: Class initialized using 'files' driver.
+INFO - 2016-04-11 15:45:11 --> Controller Class Initialized
+INFO - 2016-04-11 15:45:11 --> Model Class Initialized
+INFO - 2016-04-11 15:45:11 --> Database Driver Class Initialized
+INFO - 2016-04-11 15:45:11 --> Model Class Initialized
+INFO - 2016-04-11 15:45:11 --> table 
+INFO - 2016-04-11 15:45:11 --> Model Class Initialized
+INFO - 2016-04-11 15:45:11 --> File loaded: E:\workspace\phpwork\cloud_system\application\views\header.php
+INFO - 2016-04-11 15:45:11 --> File loaded: E:\workspace\phpwork\cloud_system\application\views\details.html
+INFO - 2016-04-11 15:45:11 --> File loaded: E:\workspace\phpwork\cloud_system\application\views\footer.php
+INFO - 2016-04-11 15:45:11 --> Final output sent to browser
+DEBUG - 2016-04-11 15:45:11 --> Total execution time: 0.0991

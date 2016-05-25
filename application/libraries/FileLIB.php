@@ -7,7 +7,7 @@
  */
 
 class FileLIB {
-    public function upload($file,$file_path='./file/',$alowExt=array('jpg','png','jpeg','wbmp','zip','docx','doc','rar')){
+    public function upload($file,$file_path='./file/',$alowExt=array('jpg','ppt','png','jpeg','wbmp','zip','docx','doc','rar','xlsx')){
         $return=array();
         $filename=$file['name'];
         $type=$file['type'];
@@ -17,7 +17,7 @@ class FileLIB {
         $ext=$this->getExt($filename);
         $final_file_name=$this->getUniName().'.'.$this->getExt($filename);
         if($error==UPLOAD_ERR_OK){
-            if(in_array($ext,$alowExt)){
+            if(in_array('jpg',$alowExt)){
                 if(is_uploaded_file($tmp_name)){
                     if(move_uploaded_file($tmp_name,$file_path.DIRECTORY_SEPARATOR.$final_file_name)){
                         $return['error_mess']='文件上传成功';

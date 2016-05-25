@@ -58,21 +58,22 @@ class JobMdl extends CI_Model {
      * @param string $sort
      */
     public function getJobList($where,$limit=1000,$offset=0,$order_by='le_job.timestamp',$sort='desc'){
-        $this->db->select('le_job.id as job_id,le_job.title as job_name,le_job.lesson_id,le_job.end_time as job_end_time,
+        $this->db->select('le_job.filename,le_job.id as job_id,le_job.name as job_name,le_job.lesson_id,le_job.end_time as job_end_time,
         le_job.timestamp as job_time,le_lesson.lesson_name,le_lesson.lesson_desc,le_lesson.teacher_id,
-        le_teacher.name as teacher_name,le_teacher.teacher_code');
+        le_teacher.name as teacher_name,le_teacher.teacher_id');
 
         $this->db->from($this->_table);
         $this->db->join('le_lesson','le_job.lesson_id=le_lesson.id','left');
         $this->db->join('le_teacher','le_teacher.id=le_lesson.teacher_id','left');
         if(is_array($where)&&!empty($where)){
             foreach($where as $key=>$value){
-                $this->db->where($key,$where);
+                $this->db->where($key,$value);
             }
         }
         $this->db->limit($limit,$offset);
         $this->db->order_by($order_by,$sort);
         $res=$this->db->get();
+//        echo $this->db->last_query();
         if($res){
             $this->_return['status']=true;
             $this->_return['result']=$res->result_array();
@@ -80,12 +81,12 @@ class JobMdl extends CI_Model {
             $this->_return['status']=false;
             $this->_return['error_mess']='查询出错';
         }
+        return $this->_return;
     }
     public function getStudentJob($lesson_id,$student_id){
             $this->db->select();
             $this->db->join();
     }
-
     /**
      * 删除作业
      * @param $id
@@ -102,4 +103,23 @@ class JobMdl extends CI_Model {
         }
         return $this->_return;
     }
+    /**
+     * 获取课程的作业列表
+     */
+    public function get_lesson_job($lesson_id){
+
+        $return = array();
+        if($lesson_id ==0){
+            $return['status']=false;
+            $return['error_mess']='无课程';
+        }else{
+            $sql = "select * from le_job where lesson_id = '{$lesson_id}'";
+            $query = $this->db->query($sql);
+            $result = $query->result_array();
+            $return['status'] = true;
+            $return['result'] = $result;
+        }
+        return $return;
+    }
+
 }

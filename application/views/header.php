@@ -7,11 +7,15 @@
     <link rel="stylesheet" type="text/css" href="<?PHP echo base_url('/static/css/bootstrap.min.css');?>" />
     <link rel="stylesheet" type="text/css" href="<?PHP echo base_url('/static/css/man.css');?>" />
     <link rel="stylesheet" type="text/css" href="<?PHP echo base_url('/static/css/fileinput.min.css');?>" />
+    <link rel="stylesheet" type="text/css" href="<?PHP echo base_url('/static/css/bootstrap-datetimepicker.min.css');?>" />
+    <link rel="stylesheet" type="text/css" href="<?PHP echo base_url('/static/bootstrap-fileinput/css/fileinput.min.css');?>" />
 </head>
 <script type="text/javascript" src="<?PHP echo base_url('/static/js/jquery-2.2.1.min.js');?>"></script>
-<script type="text/javascript" src="<?PHP echo base_url('/static/js/fileinput.min.js');?>"></script>
-<script type="text/javascript" src="<?PHP echo base_url('/static/js/fileinput_locale_zh.js');?>"></script>
+<script type="text/javascript" src="<?PHP echo base_url('/static/bootstrap-fileinput//js/fileinput.min.js');?>"></script>
+<script type="text/javascript" src="<?PHP echo base_url('/static/bootstrap-fileinput/js/fileinput_locale_zh.js');?>"></script>
 <script type="text/javascript" src="<?PHP echo base_url('/static/js/bootstrap.min.js');?>"></script>
+<script type="text/javascript" src="<?PHP echo base_url('/static/js/bootstrap-datetimepicker.min.js');?>"></script>
+<script type="text/javascript" src="<?PHP echo base_url('/static/js/locales/bootstrap-datetimepicker.zh-CN.js');?>"></script>
 <script type="text/javascript" src="<?PHP echo base_url('/static/js/main.js');?>"></script>
 <body>
 <header class="nav nav-default">

@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: gaoxu
+ * User:
  * Date: 2016/2/24
  * Time: 20:49
  */
@@ -19,6 +19,7 @@ class Courses extends CI_Controller {
 
     public function __construct(){
         parent::__construct();
+        $this->load->library('filelib');
         $this->load->model(array('userinfomdl','coursesmdl'));
         $isLogin=$this->userinfomdl->isLogin();
         if(!$isLogin['status']){
@@ -73,23 +74,7 @@ class Courses extends CI_Controller {
 
         echo json_encode($return);
     }
-    public function list_courses(){
-        $return=array();
-        $type=$this->userinfo['type'];
-        if($type=='teacher'){
-            $teacher_id=isset($_POST['teacher_id'])?$_POST['teacher_id']:0;
-            $where=array();
 
-        }elseif($type=='student'){
-
-        }else{
-
-        }
-        $limit=10;
-
-        $offset=$this->uri->segment(3)?$this->uri->segment(3):0;
-
-    }
     public function delete_courses(){
         if(isset($_GET['course_id'])){
             $course_id=$_GET['course_id'];
@@ -100,6 +85,7 @@ class Courses extends CI_Controller {
     }
     public function details(){
         if(isset($_GET['course_id'])){
+            $this->_data['lesson_id']=$_GET['course_id'];
             $where=array('id'=>$_GET['course_id']);
             $course=$this->coursesmdl->getCourses($where);
 //            var_dump($course);
@@ -109,6 +95,20 @@ class Courses extends CI_Controller {
                 $this->_data['course']=array(
                     'lesson_code'=>'该课程不存在'
                 );
+            }
+            if($this->userinfo['type'] == 'student'){
+                $this->_data['jurisdiction'] = $this->coursesmdl->getStudentJurisdiction($this->_data['lesson_id'],$this->userinfo['id']);
+            }
+
+            $this->load->model('jobmdl');
+            $result =$this->jobmdl->get_lesson_job($_GET['course_id']);
+            $this->_data['attachment_list'] =$this->coursesmdl->getAttachment($this->_data['lesson_id']);
+            $this->_data['material_list'] = $this->coursesmdl->getMaterial($this->_data['lesson_id']);
+//            var_dump($result);
+            $this->_data['student_list'] = $this->coursesmdl->getStudent($this->_data['lesson_id']);
+//            var_dump($this->_data['student_list']);
+            if($result['status']){
+                $this->_data['job_list']=$result['result'];
             }
 
         }else{
@@ -141,6 +141,67 @@ class Courses extends CI_Controller {
         }else{
             $return['status']=false;
             $return['error_mess']='请输入课程编码';
+        }
+        echo json_encode($return);
+    }
+    public function getStudent(){
+        $lesson_id = isset($_POST['lesson_id'])?$_POST['lesson_id']:0;
+        if($lesson_id==0){
+            $return['status']=false;
+            $return['error_mess']='选择课程';
+        }else{
+
+        }
+    }
+    public function uploadFile(){
+        $this->load->model('table_mdl');
+        if(isset($_GET['type'])){
+            $type=$_GET['type'];
+            $file=$_FILES['file'];
+            $uploadRes=$this->filelib->upload($file);
+            $filename = $uploadRes['final_filename'];
+            $fileUrl = $uploadRes['filename'];
+            $lesson_id = $_GET['lesson_id'];
+            $data=array(
+                'filename'=>$fileUrl,
+                'file_url'=>$filename,
+                'lesson_id'=>$lesson_id
+            );
+            switch($type){
+                case 'attachment':
+                    $this->table_mdl->setTable('le_attachment');
+                    $this->table_mdl->add($data);
+                    break;
+                case 'material':
+                    $this->table_mdl->setTable('le_material');
+                    $this->table_mdl->add($data);
+                    break;
+                default:
+                    break;
+            }
+        }else{
+            $return['status']=false;
+            $return['error_mess']='上传类别错误';
+        }
+        redirect(base_url('courses/details?course_id='.$_GET['lesson_id']));
+    }
+    public function delete_file(){
+        $type = isset($_GET['type'])?$_GET['type']:false;
+        $id = isset($_GET['id'])?$_GET['id']:flase;
+        $lesson_id = $_GET['lesson_id'];
+        $this->coursesmdl->delete_file($id,$type);
+        redirect(base_url('courses/details?course_id='.$_GET['lesson_id']));
+    }
+    public function change_student_status(){
+        $return = array();
+        $student_id = isset($_POST['student_id'])?$_POST['student_id']:0;
+        $status = isset($_POST['status'])?$_POST['status']:0;
+        $lesson_id = isset($_POST['lesson_id'])?$_POST['lesson_id']:0;
+        if($student_id===0||$status===0||$lesson_id===0){
+            $return['status'] = false;
+            $return['error_mess']='参数不正确';
+        }else{
+            $return = $this->coursesmdl->change_student_status($lesson_id,$student_id,$status);
         }
         echo json_encode($return);
     }

@@ -54,6 +54,10 @@
  * NOTE: If you change these, also change the error_reporting() code below
  */
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+/**
+ * 附件路径
+ */
+    define('ATTACHMENTPATH',__DIR__.DIRECTORY_SEPARATOR.'file'.DIRECTORY_SEPARATOR);
 
 /*
  *---------------------------------------------------------------
