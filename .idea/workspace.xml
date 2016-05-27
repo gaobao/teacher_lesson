@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c900b14-b1ea-4760-985e-0edae33c57b0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/78-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/78-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/78-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/78-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/78-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/78-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/78ms-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/78ms-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/83pv-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/90ms-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/90ms-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/90msp-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/90msp-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/90pv-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/90pv-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Add-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Add-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Add-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Add-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-CNS1-0.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-CNS1-1.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-CNS1-2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-CNS1-3.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-CNS1-4.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-CNS1-5.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-CNS1-6.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-CNS1-UCS2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-GB1-0.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-GB1-1.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-GB1-2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-GB1-3.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-GB1-4.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-GB1-5.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-GB1-UCS2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Japan1-0.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Japan1-1.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Japan1-2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Japan1-3.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Japan1-4.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Japan1-5.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Japan1-6.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Japan1-UCS2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Korea1-0.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Korea1-1.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Korea1-2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Adobe-Korea1-UCS2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/B5pc-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/B5pc-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/CNS-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/CNS-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/CNS1-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/CNS1-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/CNS2-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/CNS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/ETHK-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/ETHK-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/ETen-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/ETen-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/ETenms-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/ETenms-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Ext-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Ext-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Ext-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Ext-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GB-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GB-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GB-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GB-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBK-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBK-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBK2K-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBK2K-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBKp-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBKp-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBT-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBT-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBT-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBT-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBTpc-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBTpc-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBpc-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/GBpc-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKdla-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKdla-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKdlb-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKdlb-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKgccs-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKgccs-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKm314-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKm314-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKm471-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKm471-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKscs-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/HKscs-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Hankaku.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Hiragana.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSC-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSC-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSC-Johab-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSC-Johab-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSCms-UHC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSCms-UHC-HW-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSCms-UHC-HW-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSCms-UHC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSCpc-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/KSCpc-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Katakana.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/NWP-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/NWP-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/Roman.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniCNS-UCS2-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniCNS-UCS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniCNS-UTF16-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniCNS-UTF16-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniCNS-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniCNS-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniCNS-UTF8-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniCNS-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniGB-UCS2-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniGB-UCS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniGB-UTF16-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniGB-UTF16-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniGB-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniGB-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniGB-UTF8-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniGB-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS-UCS2-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS-UCS2-HW-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS-UCS2-HW-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS-UCS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS-UTF16-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS-UTF16-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS-UTF8-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS2004-UTF16-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS2004-UTF16-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS2004-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS2004-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS2004-UTF8-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJIS2004-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJISPro-UCS2-HW-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJISPro-UCS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJISPro-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJISX0213-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJISX0213-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJISX02132004-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniJISX02132004-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniKS-UCS2-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniKS-UCS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniKS-UTF16-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniKS-UTF16-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniKS-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniKS-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniKS-UTF8-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/UniKS-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/WP-Symbol.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/compressed.tracemonkey-pldi-09.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/findbarButton-next-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/findbarButton-next-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/findbarButton-next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/findbarButton-next@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/findbarButton-previous-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/findbarButton-previous-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/findbarButton-previous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/findbarButton-previous@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/grab.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/grabbing.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/loading-icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/loading-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/loading-small@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-documentProperties.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-documentProperties@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-firstPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-firstPage@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-handTool.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-handTool@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-lastPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-lastPage@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-rotateCcw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-rotateCcw@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-rotateCw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/secondaryToolbarButton-rotateCw@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/texture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-bookmark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-bookmark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-download@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-menuArrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-menuArrows@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-openFile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-openFile@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-pageDown-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-pageDown-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-pageDown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-pageDown@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-pageUp-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-pageUp-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-pageUp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-pageUp@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-presentationMode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-presentationMode@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-print@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-search@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-secondaryToolbarToggle-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-secondaryToolbarToggle-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-secondaryToolbarToggle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-secondaryToolbarToggle@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-sidebarToggle-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-sidebarToggle-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-sidebarToggle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-sidebarToggle@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-viewAttachments.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-viewAttachments@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-viewOutline-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-viewOutline-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-viewOutline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-viewOutline@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-viewThumbnail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-viewThumbnail@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-zoomIn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-zoomIn@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-zoomOut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/toolbarButton-zoomOut@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/bg/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/bn-IN/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/hy-AM/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/kk/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/kn/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/or/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/pa-IN/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/sr/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ta/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/cmaps/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Review.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/TemplateList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/annotation-check.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/annotation-comment.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/annotation-help.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/annotation-insert.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/annotation-key.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/annotation-newparagraph.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/annotation-noicon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/annotation-note.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/images/annotation-paragraph.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cloud_system.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/compatibility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/debugger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/l10n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/locale.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/build/pdf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/build/pdf.worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/viewer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/viewer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/viewer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/viewer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ach/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/af/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ak/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/an/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ar/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/as/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ast/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/az/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/be/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/bn-BD/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/br/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/bs/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ca/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/cs/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/csb/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/cy/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/da/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/de/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/el/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/en-GB/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/en-US/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/en-ZA/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/eo/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/es-AR/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/es-CL/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/es-ES/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/es-MX/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/et/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/eu/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/fa/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ff/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/fi/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/fr/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/fy-NL/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ga-IE/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/gd/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/gl/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/gu-IN/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/he/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/hi-IN/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/hr/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/hu/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/id/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/is/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/it/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ja/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ka/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/km/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ko/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ku/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/lg/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/lij/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/lt/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/lv/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/mai/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/mk/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ml/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/mn/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/mr/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ms/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/my/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/nb-NO/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/nl/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/nn-NO/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/nso/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/oc/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/pl/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/pt-BR/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/pt-PT/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/rm/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ro/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ru/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/rw/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/sah/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/si/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/sk/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/sl/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/son/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/sq/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/sv-SE/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/sw/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ta-LK/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/te/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/th/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/tl/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/tn/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/tr/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/uk/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/ur/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/vi/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/wo/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/xh/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/zh-CN/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/zh-TW/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic/web/locale/zu/viewer.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Courses.php" afterPath="$PROJECT_DIR$/application/controllers/Courses.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Download.php" afterPath="$PROJECT_DIR$/application/controllers/Download.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/FileLIB.php" afterPath="$PROJECT_DIR$/application/libraries/FileLIB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/details.html" afterPath="$PROJECT_DIR$/application/views/details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/header.php" afterPath="$PROJECT_DIR$/application/views/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/teacher_index.html" afterPath="$PROJECT_DIR$/application/views/teacher_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/umeditor/lang/zh-cn/zh-cn.js" afterPath="$PROJECT_DIR$/umeditor/lang/zh-cn/zh-cn.js" />
+    </list>
+    <ignored path="cloud_system.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="cloud_system" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Review.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Review.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.133333" vertical-offset="443" max-vertical-offset="1134">
+              <caret line="52" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/viewer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.1" vertical-offset="0" max-vertical-offset="189">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateList.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/TemplateList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.7333333" vertical-offset="86" max-vertical-offset="1008">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.9" vertical-offset="120" max-vertical-offset="966">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Download.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Download.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.6" vertical-offset="834" max-vertical-offset="1995">
+              <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4624782" vertical-offset="9836" max-vertical-offset="10773">
+              <caret line="588" column="85" selection-start-line="588" selection-start-column="85" selection-end-line="588" selection-end-column="85" />
+              <folding>
+                <element signature="n#div#4;n#div#0;n#div#9;n#!!top" expanded="false" />
+                <element signature="n#div#10;n#!!top" expanded="false" />
+                <element signature="n#div#11;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.2" vertical-offset="378" max-vertical-offset="5607">
+              <caret line="59" column="26" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5" vertical-offset="204" max-vertical-offset="777">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Courses.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Courses.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.3" vertical-offset="498" max-vertical-offset="4725">
+              <caret line="37" column="36" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacher_index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/teacher_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.9" vertical-offset="693" max-vertical-offset="1974">
+              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/static/pdf/viewer.js" />
+        <option value="$PROJECT_DIR$/review.php" />
+        <option value="$PROJECT_DIR$/static/generic/web/viewer.js" />
+        <option value="$PROJECT_DIR$/static/generic/web/viewer.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/static/generic/web/viewer.php" />
+        <option value="$PROJECT_DIR$/application/libraries/FileLIB.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Courses.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Review.php" />
+        <option value="$PROJECT_DIR$/application/views/header.php" />
+        <option value="$PROJECT_DIR$/application/views/viewer.html" />
+        <option value="$PROJECT_DIR$/application/controllers/Template.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Download.php" />
+        <option value="$PROJECT_DIR$/application/views/template.html" />
+        <option value="$PROJECT_DIR$/application/views/teacher_index.html" />
+        <option value="$PROJECT_DIR$/application/views/details.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="web.server" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\phpwork\cloud_system\static" />
+      <recent name="E:\workspace\phpwork\cloud_system\static\pdf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\phpwork\cloud_system\application\views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c900b14-b1ea-4760-985e-0edae33c57b0" name="Default" comment="" />
+      <created>1464267490892</created>
+      <option name="number" value="Default" />
+      <updated>1464267490892</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.86707884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/generic/web/viewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="160020">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/student_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1344">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/logs/log-2016-05-26.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.6" vertical-offset="73725" max-vertical-offset="74865">
+          <caret line="3523" column="32" selection-start-line="3523" selection-start-column="32" selection-end-line="3523" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/FileLIB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.9" vertical-offset="582" max-vertical-offset="1848">
+          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/generic/web/viewer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2258065" vertical-offset="8955" max-vertical-offset="168882">
+          <caret line="433" column="5" selection-start-line="433" selection-start-column="5" selection-end-line="433" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.133333" vertical-offset="443" max-vertical-offset="1134">
+          <caret line="52" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5" vertical-offset="204" max-vertical-offset="777">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2" vertical-offset="378" max-vertical-offset="5607">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/viewer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1" vertical-offset="0" max-vertical-offset="189">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/TemplateList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7333333" vertical-offset="86" max-vertical-offset="1008">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Download.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6" vertical-offset="834" max-vertical-offset="1995">
+          <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.9" vertical-offset="120" max-vertical-offset="966">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/teacher_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.9" vertical-offset="693" max-vertical-offset="1974">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Courses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.3" vertical-offset="498" max-vertical-offset="4725">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4624782" vertical-offset="9836" max-vertical-offset="10773">
+          <caret line="588" column="85" selection-start-line="588" selection-start-column="85" selection-end-line="588" selection-end-column="85" />
+          <folding>
+            <element signature="n#div#4;n#div#0;n#div#9;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

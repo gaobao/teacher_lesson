@@ -17,7 +17,7 @@
 <script type="text/javascript" src="<?PHP echo base_url('/static/js/bootstrap-datetimepicker.min.js');?>"></script>
 <script type="text/javascript" src="<?PHP echo base_url('/static/js/locales/bootstrap-datetimepicker.zh-CN.js');?>"></script>
 <script type="text/javascript" src="<?PHP echo base_url('/static/js/main.js');?>"></script>
-<body>
+<body style="width: 100%;height: 100%;">
 <header class="nav nav-default">
     <span class="nav-title"><a href="<?php echo base_url();?>">云备课系统</a></span>
 <span role="presentation" class="dropdown">

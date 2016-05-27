@@ -154,31 +154,42 @@ class Courses extends CI_Controller {
         }
     }
     public function uploadFile(){
+//        var_dump($_POST);
+//        var_dump($_FILES);
+//        var_dump($_GET);
+//        exit();
         $this->load->model('table_mdl');
         if(isset($_GET['type'])){
             $type=$_GET['type'];
             $file=$_FILES['file'];
             $uploadRes=$this->filelib->upload($file);
-            $filename = $uploadRes['final_filename'];
-            $fileUrl = $uploadRes['filename'];
-            $lesson_id = $_GET['lesson_id'];
-            $data=array(
-                'filename'=>$fileUrl,
-                'file_url'=>$filename,
-                'lesson_id'=>$lesson_id
-            );
-            switch($type){
-                case 'attachment':
-                    $this->table_mdl->setTable('le_attachment');
-                    $this->table_mdl->add($data);
-                    break;
-                case 'material':
-                    $this->table_mdl->setTable('le_material');
-                    $this->table_mdl->add($data);
-                    break;
-                default:
-                    break;
+
+            if($uploadRes['status']){
+                $filename = $uploadRes['final_filename'];
+                $fileUrl = $uploadRes['filename'];
+                $lesson_id = $_GET['lesson_id'];
+                $data=array(
+                    'filename'=>$fileUrl,
+                    'file_url'=>$filename,
+                    'lesson_id'=>$lesson_id
+                );
+
+                switch($type){
+                    case 'attachment':
+                        $this->table_mdl->setTable('le_attachment');
+                        $this->table_mdl->add($data);
+                        break;
+                    case 'material':
+                        $this->table_mdl->setTable('le_material');
+                        $this->table_mdl->add($data);
+                        break;
+                    default:
+                        break;
+                }
+            }else{
+                echo "<script>alert(".$uploadRes['error_mess'].");</script>";
             }
+
         }else{
             $return['status']=false;
             $return['error_mess']='上传类别错误';

@@ -65,6 +65,7 @@ class FileLIB {
                     $return['error_mess']='未知原因';
             }
         }
+        log_message('debug',var_dump($return,true));
         return $return;
     }
 

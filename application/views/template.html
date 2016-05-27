@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<?php
+   $num=0;    //用来记录目录下的文件个数
+   $dirname=ATTACHMENTPATH.'../template/'; //要遍历的目录名字
+   $dir_handle=opendir($dirname);
+
+   echo '<table border="1" align="center" width="960px" cellspacing="0" cellpadding="0">';
+//echo '<caption><h2>目录'.$dirname.'下面的内容</h2></caption>';
+echo '<tr align="left" bgcolor="#cccccc">';
+    echo '<th>文件名</th><th>文件大小</th><th>文件类型</th><th>修改时间</th></tr>';
+while($file=readdir($dir_handle))
+{
+if($file!="."&&$file!="..")
+{
+$dirFile=$dirname."/".$file;
+if($num++%2==0)    //隔行换色
+$bgcolor="#ffffff";
+else
+$bgcolor="#cccccc";
+echo '<tr bgcolor='.$bgcolor.'>';
+    $file1 = iconv("GB2312//IGNORE", "UTF-8", $file);
+    $url = base_url('download/downloadTemplate?filename='.$file1.'&type=template');
+    echo '<td><a href="'.$url.'">'.$file1.'</a></td>';
+    echo '<td>'.filesize($dirFile).'</td>';
+    echo '<td>'.filetype($dirFile).'</td>';
+    echo '<td>'.date("Y/n/t",filemtime($dirFile)).'</td>';
+    echo '</tr>';
+}
+}
+echo '</table>';
+closedir($dir_handle);
+//echo '在<b>'.$dirname.'</b>目录下的子目录和文件共有<b>'.$num.'</b>个';
+?>
+</body>
+</html>
